@@ -34,5 +34,9 @@ theme: sanguine
 gems:
   - jekyll-feed
 exclude:
+  - config.ru
+  - vendor
+  - Procfile
+  - Rakefile
   - Gemfile
   - Gemfile.lock
