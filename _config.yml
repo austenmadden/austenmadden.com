@@ -17,6 +17,7 @@ title: Austen Madden
 footer_title: Contact Info
 greeting: Welcome!
 email: maddenausten@gmail.com
+image: img/headshot.jpg
 description: > # this means to ignore newlines until "baseurl:"
   I'm a software developer from Columbus, Ohio interested in just a bit of
   everything.
@@ -26,7 +27,7 @@ twitter_username: aus10madden
 github_username:  austenmadden
 linkedin_username: austenmadden
 disqus:
-    shortname: austenmadden-me
+  shortname: austenmadden-me
 
 # Build settings
 markdown: kramdown
