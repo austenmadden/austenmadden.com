@@ -18,9 +18,8 @@ footer_title: Contact Info
 greeting: Welcome!
 email: maddenausten@gmail.com
 image: img/headshot.jpg
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a software developer from Columbus, Ohio interested in just a bit of
-  everything.
+long_description: > # this means to ignore newlines until "baseurl:"
+  Software Developer from Columbus, Ohio just trying his best!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://austenmadden.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: aus10madden
