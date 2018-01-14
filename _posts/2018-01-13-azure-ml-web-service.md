@@ -15,7 +15,7 @@ The first thing you'll notice once you've setup an account with [Azure ML Studio
 
 In a nutshell it provides a GUI tool to construct a flow chart of models and data transformations (also available from a menu) to solve various problems and build a machine learning solution. You are able to drop down into Python or R languages themselves to solve various tasks if you so choose. Additionally it has support for notebooks if that is your preference. What I wanted to focus in on was the ability to setup a web service based on a model built in ML Studio.
 
-![Web Service Example]({{ "/img/azure-ml.png" | absolute_url }}){:style="width: 740px;"}
+![Web Service Example]({{ "/img/azure-ml.png" }}){:style="width: 740px;"}
 
 Through the interface you can setup a web service that exposes your model via a http endpoint accepting a JSON payload. Below is an example of posting to the above model using ruby!
 
