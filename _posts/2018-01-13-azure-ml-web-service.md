@@ -11,7 +11,7 @@ While I'm primarily interested in understanding the practice of Data Science, so
 
 ## Azure ML Studio
 
-The first thing you'll notice once you've setup an account with [Azure ML Studio](studio.azureml.net) is that it has a somewhat daunting GUI interface with many options depending on what you are trying to accomplish (much like it's other Azure counterparts). Fortunately Microsoft saw fit to equip it with a robust tutorial and many example projects.
+The first thing you'll notice once you've setup an account with [Azure ML Studio](https://studio.azureml.net) is that it has a somewhat daunting GUI interface with many options depending on what you are trying to accomplish (much like it's other Azure counterparts). Fortunately Microsoft saw fit to equip it with a robust tutorial and many example projects.
 
 Its most useful feature provides a GUI tool to construct a flow chart of models and data transformations (called an experiment) to solve various problems and build a practical machine learning solution. You are also able to drop down into Python or R to solve various tasks if you so choose. Additionally, it has support for notebooks if that is your preference. What I wanted to focus on in this post was the ability to setup a web service based on a model built in ML Studio.
 
