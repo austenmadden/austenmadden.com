@@ -17,7 +17,7 @@ You might be looking for just a quick summary of some of the things I'm familiar
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 #### (Sometimes) Hobby Languages
-[Clojure](https://clojure.org/)
+[Clojure](https://clojure.org/),
 [Elixir](http://elixir-lang.org/),
 [Python](https://www.python.org/),
 [Scala](https://www.scala-lang.org/),
