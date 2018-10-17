@@ -17,6 +17,7 @@ You might be looking for just a quick summary of some of the things I'm familiar
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 #### (Sometimes) Hobby Languages
+[Clojure](https://clojure.org/)
 [Elixir](http://elixir-lang.org/),
 [Python](https://www.python.org/),
 [Scala](https://www.scala-lang.org/),
@@ -24,8 +25,8 @@ You might be looking for just a quick summary of some of the things I'm familiar
 [Rust](https://www.rust-lang.org/en-US/),
 [Go](https://golang.org/)
 
-#### Stuff I Used To Use Everyday And Occasionally Brush Up On
-[Java](https://en.wikipedia.org/wiki/Java_(programming_language)),
+#### Stuff I Used To Use ~~And Occasionally Brush Up On~~
+[Java](https://openjdk.java.net/),
 [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
 ### Frameworks
