@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '3.4.2'
+gem 'jekyll', '3.8.5'
 
 # Use my own theme Sanguine.
 gem 'sanguine'
@@ -28,7 +28,7 @@ gem 'puma'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem 'jekyll-feed', '~> 0.6'
+   gem 'jekyll-feed'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
