@@ -32,4 +32,4 @@ You might be looking for just a quick summary of some of the things I'm familiar
 ### Frameworks
 [Ruby on Rails](http://rubyonrails.org/),
 [React](https://facebook.github.io/react/),
-[Android](https://developer.android.com/index.html),
+[Android](https://developer.android.com/index.html)
