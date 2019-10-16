@@ -20,46 +20,7 @@ Its most useful feature provides a GUI tool to construct a flow chart of models 
 Through the interface you can setup a web service that exposes your model via a http endpoint accepting a JSON payload. Below is an example of an API call to the above model using ruby and the HTTParty gem!
 
 ## Ruby API Call Example
-```ruby
-require 'httparty'
 
-url =  'url_of_service' # url of your azure web service
-api_key = 'dummy_key' # real api_key would go here
-
-
-## JSON input, these can be tuned in the model
-body = JSON.generate(
-  {
-    "Inputs": {
-      "input1": [{
-        'age': "25",
-        'workclass': "Private",
-        'fnlwgt': "1",
-        'education': "Bachelors",
-        'education-num': "1",
-        'marital-status': "Single",
-        'occupation': "Exec-managerial",
-        'relationship': "",
-        'race': "White",
-        'sex': "Female",
-        'capital-gain': "0",
-        'capital-loss': "0",
-        'hours-per-week': "40",
-        'native-country': "United-States",
-      }],
-    },
-    "GlobalParameters":  {}
-  }
-)
-
-HTTParty.post(
-  url,
-  headers: {
-    'Content-Type' => 'application/json',
-    'Authorization' => "Bearer #{api_key}"
-  },
-  body: body
-)
-```
+<script src="https://gist.github.com/austenmadden/adab728646bb097601c4c3735f55b539.js"></script>
 
 That's all you need to make a valid API call. Additionally there is an API for batch calls. Still learning the ropes of the platform but so far it seems to ease the delivery of useful Data Science. There are quite a few things I'd desire before using this concept in a production environment, but for quick experimentation it's hard to beat!
