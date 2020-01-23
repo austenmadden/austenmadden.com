@@ -5,10 +5,12 @@ permalink: /about/
 ---
 
 # About
-Appreciate your interest! I spend my time at [Data-Axle](https://data-axle.com) working with lots of data. Previously, I worked at [CoverMyMeds](https://covermymeds.com). I enjoy full-stack development, getting to work with all the tools and languages needed to bring a modern application to an end user.
+Currently, I spend my time at [IKE Smart City](https://www.ikesmartcity.com/) building technology
+for the future!
 
 ## Experience
-You might be looking for just a quick summary of some of the things I'm familiar with. Gotcha covered!
+You might be looking for just a quick summary of some of the technology I'm familiar with. Gotcha
+covered!
 
 ### Languages
 
@@ -33,3 +35,7 @@ You might be looking for just a quick summary of some of the things I'm familiar
 [Ruby on Rails](http://rubyonrails.org/),
 [React](https://facebook.github.io/react/),
 [Android](https://developer.android.com/index.html)
+
+### Data
+[Postgresql](https://www.postgresql.org/)
+[Elasticsearch](https://github.com/elastic/elasticsearch)
