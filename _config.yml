@@ -31,7 +31,7 @@ disqus:
 # Build settings
 markdown: kramdown
 theme: sanguine
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - config.ru
