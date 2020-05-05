@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Austen Madden
 footer_title: Contact Info
-greeting: Welcome!
+greeting: Hey 👋
 email: maddenausten@gmail.com
 image: img/headshot.jpg
 long_description: > # this means to ignore newlines until "baseurl:"
