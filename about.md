@@ -5,8 +5,11 @@ permalink: /about/
 ---
 
 # About
-Currently, I spend my time at [IKE Smart City](https://www.ikesmartcity.com/) building technology
-for the future!
+I'm a software engineer whose spent time working in a number of areas but I have a specific focus on
+Rails development.
+
+Currently, I spend my time at [Doximity](https://www.doximity.com/) building technology to empower
+doctors and clinicians.
 
 ## Experience
 You might be looking for just a quick summary of some of the technology I'm familiar with. Gotcha
