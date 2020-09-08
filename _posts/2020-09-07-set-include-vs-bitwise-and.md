@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby Set#include? vs bitwise & benchmark"
 date:   2020-09-07 12:22:57 -0400
-categories: azure machine-learning ruby
+categories: ruby performance
 ---
 
 I was reviewing some code recently which included `Set#include?`. I was curious about the
