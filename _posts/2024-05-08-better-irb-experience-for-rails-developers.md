@@ -17,7 +17,8 @@ use case. However, there's an easy work around to that! Simply require ActiveSup
 ```ruby
 require 'active_support/all'
 
-# Can also selectively load only the parts of ActiveSupport you need. For example string extensions:
+# Can also selectively load only the parts of ActiveSupport you need.
+# For example string extensions:
 require 'active_support/core_ext/string'
 ```
 
@@ -43,8 +44,8 @@ This could extend to other Rails provided  as well.
 def load_active_model
   require 'active_model'
 
-  # Most parts of rails provide `eager_load!` method to load eager loaded classes. May or may not be
-  # necessary depending on your use case.
+  # Most parts of rails provide `eager_load!` method to load eager loaded classes.
+  # May or may not be  necessary depending on your use case.
   ActiveModel.eager_load!
 end
 
