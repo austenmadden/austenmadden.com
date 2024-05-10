@@ -11,14 +11,14 @@ rather than the Rails console due to general bootup time.
 
 However, a common gotcha that impacts all Rails developers is the differences between the standard
 Ruby library and Rails provided behaviors such as ActiveSupport. This can derail (pun intended) this
-use case. However, there's an easy work around to that! Simply require ActiveSupport and calling
-it's `.eager_load!` method will bring in most of the Rails behaviors and method additions you're
-used to.
+use case. However, there's an easy work around to that! Simply require ActiveSupport.
+
 
 ```ruby
-require 'active_support'
+require 'active_support/all'
 
-ActiveSupport.eager_load!
+# Can also selectively load only the parts of ActiveSupport you need. For example string extensions:
+require 'active_support/core_ext/string'
 ```
 
 If you'd like to make this behavior optional you could always define it in a method and call it
@@ -29,8 +29,7 @@ when you need it.
 
 ```ruby
 def load_active_support
-  require 'active_support'
-  ActiveSupport.eager_load!
+  require 'active_support/all'
 end
 
 load_active_support
@@ -43,6 +42,9 @@ This could extend to other Rails provided  as well.
 ```ruby
 def load_active_model
   require 'active_model'
+
+  # Most parts of rails provide `eager_load!` method to load eager loaded classes. May or may not be
+  # necessary depending on your use case.
   ActiveModel.eager_load!
 end
 
