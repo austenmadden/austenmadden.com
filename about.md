@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About
-I'm a software engineer whose spent time working in a number of areas but I have a specific focus on
+I'm a software engineer who's spent time working in a number of areas but I have a specific focus on
 Rails development.
 
 Currently, I spend my time at [Doximity](https://www.doximity.com/) building technology to empower
